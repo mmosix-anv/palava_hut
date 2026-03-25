@@ -1,0 +1,23 @@
+assets/css/custom-style.css
+  1167e0cf646f8086 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "f000d116d6b092da096afb3d2a4596daf18ca688",
+  "prompts": {
+    "1167e0cf646f8086": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "fa82bf3c-8cee-4baa-bfbf-c13690a0a0f4",
+        "model": "unknown"
+      },
+      "human_author": "Moses Oyewole <moses@anvillive.com>",
+      "messages": [],
+      "total_additions": 32,
+      "total_deletions": 1,
+      "accepted_lines": 32,
+      "overriden_lines": 0
+    }
+  }
+}
