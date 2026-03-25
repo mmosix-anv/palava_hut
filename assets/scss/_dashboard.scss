@@ -1,0 +1,28 @@
+// Dashboard styles
+.dashboard-container {
+  background-image: url('../images/dashboard-bg.jpg');
+  background-size: cover;
+  min-height: 100vh;
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+
+    &.bg-white {
+      background-color: rgba(255, 255, 255, 0.6) !important;
+    }
+  }
+
+  .feather-icon {
+    opacity: 0.75;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+    transform: scale(1);
+
+    &:hover {
+      opacity: 0.9;
+      -webkit-backdrop-filter: brightness(1.1);
+      transform: scale(1.05);
+    }
+  }
+}

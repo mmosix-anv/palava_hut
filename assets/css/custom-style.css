@@ -1,1 +1,32 @@
 /*Write your custom css in this file.*/
+
+/* Palava Hut portal bright mode */
+body, .page-body, .main-content, .content {
+  background: linear-gradient(145deg, #f7fbff 0%, #eaf4ff 45%, #ffffff 100%) !important;
+  color: #2d3a4a !important;
+}
+
+/* Cards, widgets: lighter and more “lifted” */
+.card, .box, .table-responsive, .panel {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(88, 146, 216, 0.24) !important;
+  box-shadow: 0 10px 30px rgba(50, 95, 150, 0.10) !important;
+  border-radius: 0.65rem !important;
+}
+
+/* Ensures headers and text are visible for bright background */
+.card .card-header, .panel-heading, .box-title, .widget-title {
+  color: #1a2a48 !important;
+  font-weight: 600;
+}
+
+/* Accent buttons and borders in the new palette */
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  border-color: #2479d7 !important;
+}
+
+/* Keep the app crisp, no heavy gradients on forms */
+.form-control, .input-group, .dropdown-menu {
+  background-color: #ffffff !important;
+  border-color: rgba(62, 102, 170, 0.25) !important;
+}

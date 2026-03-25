@@ -50,54 +50,38 @@ pre {
 }
 
 .navbar-nav .nav-link {
-  color: #5b73e8 !important;
+  color: #ffffff !important;
 }
 
 .sidebar {
-  background: #252932;
+  background: #17a589;
 }
 .sidebar .sidebar-brand {
-  background-color: #252932;
-  border-color: #2f3541;
+  background-color: #17a589;
+/*  border-color: #2f3541;*/
 }
 .sidebar .sidebar-scroll {
   border-color: #2f3541 !important;
-  background: #252932;
+  background: #17a589;
 }
 
 .sidebar-menu li a {
-  color: #898fa9;
+  color: rgba(255, 255, 255, 0.8);
 }
 .sidebar-menu li a:active, .sidebar-menu li a:hover, .sidebar-menu li a:focus {
-  color: #5b73e8 !important;
-  background-color: #20242C;
+  color: #FFF !important;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .sidebar-menu li ul li a {
-  color: #898fa9;
+  color: rgba(255, 255, 255, 0.8);
 }
 .sidebar-menu li ul li a:hover {
   color: #FFF;
-  background-color: #20242C;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .sidebar-menu li.active > a {
-  color: #5b73e8 !important;
-  background-color: #1C1F26;
-}
-
-.sidebar-toggled .sidebar-menu li:hover {
-  background-color: #252932;
-}
-.sidebar-toggled .sidebar-menu li:hover > a {
-  box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.09) !important;
-  -webkit-box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.09) !important;
-}
-.sidebar-toggled .sidebar-menu li ul {
-  background-color: #272B35;
-}
-.sidebar-toggled .sidebar-menu li ul li a:hover {
-  background-color: #20242C !important;
-  border-radius: 0 !important;
-  color: #ccc !important;
+  color: #FFF !important;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .unread-notification {
@@ -256,14 +240,14 @@ pre {
   border-color: #2f3541 !important;
 }
 .nav-tabs li a:hover, .nav-tabs li a:focus, .nav-tabs li a:active {
-  color: #5b73e8 !important;
+  color: #ffffff !important;
 }
 .nav-tabs li .active, .nav-tabs li.active {
-  color: #5b73e8 !important;
+  color: #ffffff !important;
   border-color: transparent !important;
 }
 .nav-tabs li:not(.title-tab) a::after {
-  background-color: #5b73e8;
+  background-color: #ffffff;
 }
 
 .tab-title {
@@ -1435,7 +1419,7 @@ i.online {
 }
 
 #personal-language-icon {
-  color: #5b73e8 !important;
+  color: #ffffff !important;
 }
 
 @media (max-width: 500px) {
