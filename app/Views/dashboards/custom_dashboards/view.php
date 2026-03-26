@@ -39,7 +39,7 @@
     }
 
     .widget-details h1 {
-    color: #fff !important;
+    color: #000 !important;
 }
     
     .card-body {
