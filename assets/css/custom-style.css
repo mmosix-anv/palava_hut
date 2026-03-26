@@ -31,6 +31,27 @@ body, .page-body, .main-content, .content {
   color: #000000 !important;
 }
 
+.widget-details h1 {
+  color: #ffffff !important;
+}
+
+.card, .box, .panel {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(88, 146, 216, 0.24) !important;
+}
+
+.card *, .box *, .panel * {
+  color: #ffffff !important;
+}
+
+.bg-info,
+.bg-success,
+.bg-primary,
+.bg-coral {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
 /* Accent buttons and borders in the new palette */
 .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
   border-color: #2479d7 !important;
