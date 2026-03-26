@@ -33,8 +33,8 @@ class Database extends Config
 	public $default = [
 		'DSN'      => '',
 		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '',
+		'username' => 'dash_phuser',
+		'password' => '^Ad#9.)[*%Ho',
 		'database' => 'ph_portal',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => 'ph_',
