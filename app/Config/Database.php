@@ -32,11 +32,11 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => getenv('database.default.hostname') ?: 'localhost',
-		'username' => getenv('database.default.username') ?: 'root',
-		'password' => getenv('database.default.password') ?: '',
-		'database' => getenv('database.default.database') ?: 'test',
-		'DBDriver' => getenv('database.default.DBDriver') ?: 'MySQLi',
+		'hostname' => 'localhost',
+		'username' => 'root',
+		'password' => '',
+		'database' => 'test',
+		'DBDriver' => 'MySQLi',
 		'DBPrefix' => 'ph_',
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),
@@ -47,7 +47,7 @@ class Database extends Config
 		'compress' => false,
 		'strictOn' => false,
 		'failover' => [],
-		'port'     => (int) (getenv('database.default.port') ?: 3306),
+		'port'     => 3306,
 	];
 
 	/**
@@ -81,6 +81,14 @@ class Database extends Config
 	public function __construct()
 	{
 		parent::__construct();
+
+		// Fetch database credentials from environment variables
+		$this->default['hostname'] = getenv('database.default.hostname') ?: $this->default['hostname'];
+		$this->default['username'] = getenv('database.default.username') ?: $this->default['username'];
+		$this->default['password'] = getenv('database.default.password') ?: $this->default['password'];
+		$this->default['database'] = getenv('database.default.database') ?: $this->default['database'];
+		$this->default['DBDriver'] = getenv('database.default.DBDriver') ?: $this->default['DBDriver'];
+		$this->default['port']     = (int) (getenv('database.default.port') ?: $this->default['port']);
 
 		// Ensure that we always set the database group to 'tests' if
 		// we are currently running an automated test suite, so that
