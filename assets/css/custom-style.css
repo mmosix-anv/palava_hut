@@ -25,6 +25,12 @@ body, .page-body, .main-content, .content {
   font-weight: 600;
 }
 
+/* Card body background */
+.card-body, .card .card-body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
 /* Accent buttons and borders in the new palette */
 .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
   border-color: #2479d7 !important;
