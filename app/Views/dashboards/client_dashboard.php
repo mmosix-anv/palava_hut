@@ -1,5 +1,5 @@
 <?php echo view("dashboards/install_pwa"); ?>
-<style>
+<!-- <style>
     /* Custom CSS for dashboard cards and background */
     .dashboard-view {
         position: relative;
@@ -61,7 +61,7 @@
     a {
     color: #ffff;
 }
-</style>
+</style> -->
 <?php 
 $project_inquiry_model = model("App\Models\Project_inquiry_model");
 $has_inquiries = $project_inquiry_model->get_details(array("user_id" => $login_user->id, "email" => $login_user->email))->getResult();
