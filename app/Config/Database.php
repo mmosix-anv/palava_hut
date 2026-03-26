@@ -32,11 +32,11 @@ class Database extends Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'localhost',
-		'username' => 'dash_phuser',
-		'password' => '^Ad#9.)[*%Ho',
-		'database' => 'ph_portal',
-		'DBDriver' => 'MySQLi',
+		'hostname' => getenv('database.default.hostname') ?: 'localhost',
+		'username' => getenv('database.default.username') ?: 'root',
+		'password' => getenv('database.default.password') ?: '',
+		'database' => getenv('database.default.database') ?: 'test',
+		'DBDriver' => getenv('database.default.DBDriver') ?: 'MySQLi',
 		'DBPrefix' => 'ph_',
 		'pConnect' => false,
 		'DBDebug'  => (ENVIRONMENT !== 'production'),
@@ -47,7 +47,7 @@ class Database extends Config
 		'compress' => false,
 		'strictOn' => false,
 		'failover' => [],
-		'port'     => 3306,
+		'port'     => (int) (getenv('database.default.port') ?: 3306),
 	];
 
 	/**
