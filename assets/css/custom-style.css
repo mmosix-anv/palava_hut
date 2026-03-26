@@ -16,7 +16,7 @@ body, .page-body, .main-content, .content {
 }
 
 .card *, .box *, .panel * {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 /* Ensures headers and text are visible for bright background */

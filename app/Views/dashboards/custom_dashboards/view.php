@@ -1,7 +1,7 @@
 <?php echo view("dashboards/install_pwa"); ?>
 
 
-<style>
+<!-- <style>
     /* Custom CSS for dashboard cards and background */
     .dashboard-view {
         position: relative;
@@ -17,10 +17,6 @@
         background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for better text visibility */
         z-index: 0;
     }
-
-    .bg-info, .bg-success, .bg-primary, .bg-coral {
-    background-color: #252932 !important;
-}
     
     .dashboard-view > * {
         position: relative;
@@ -28,7 +24,7 @@
     }
     
     .card {
-        background-color: rgb(255 255 255 / 17%) !important;
+        /* background-color: rgb(255 255 255 / 17%) !important; */
     backdrop-filter: blur(0.2px);
     border: unset !important;
     }
@@ -63,7 +59,7 @@
     a {
     color: #ffff;
 }
-</style>
+</style> -->
 
 <div id="page-content" class="page-wrapper clearfix dashboard-view" 
 <?php if ($login_user->user_type !== "staff") { ?>
