@@ -1,0 +1,25 @@
+assets/scss/_dashboard.scss
+  3436027f8ad9d574 3-4,8-11
+assets/css/custom-style.css
+  3436027f8ad9d574 11,15-19,24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.17",
+  "base_commit_sha": "91aed7d4811bbc25d54db4f2bfadbd42339bafc0",
+  "prompts": {
+    "3436027f8ad9d574": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "787ad090-973b-492f-a6c7-024eee9a6afa",
+        "model": "unknown"
+      },
+      "human_author": "Moses Oyewole <moses@anvillive.com>",
+      "messages": [],
+      "total_additions": 65,
+      "total_deletions": 59,
+      "accepted_lines": 65,
+      "overriden_lines": 0
+    }
+  }
+}
