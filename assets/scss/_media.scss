@@ -1,5 +1,26 @@
 @import 'assets/scss/colors';
 
+/* Responsive font scaling */
+@media screen and (max-width: 768px) {
+    html, body {
+        font-size: 15px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    html, body {
+        font-size: 14px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.05em;
+    }
+}
+
 @media print {
     .print-peview {
         color: $black;
@@ -1413,12 +1434,12 @@
     input,
     select,
     textarea {
-        font-size: 16px !important;
+        font-size: 17px !important;
     }
 
     .note-editor {
         .note-editable {
-            font-size: 16px !important;
+            font-size: 17px !important;
         }
     }
 

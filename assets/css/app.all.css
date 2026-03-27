@@ -3502,7 +3502,7 @@ table.dataTable tbody td:first-child {
   padding-left: 15px !important;
 }
 table.dataTable thead th {
-  border-top: 1px solid #f1f1f5;
+  border-top: 2px solid #f1f1f5;
   padding: 15px 10px !important;
   color: #4e5e6a;
 }
@@ -3510,7 +3510,7 @@ table.dataTable thead th:first-child {
   padding-left: 15px !important;
 }
 table.dataTable thead td {
-  border: 1px solid #f1f1f5;
+  border: 2px solid #f1f1f5;
   padding: 10px;
 }
 table.dataTable thead .sorting_desc {
@@ -3545,22 +3545,22 @@ table.dataTable.stripe tbody tr.odd {
 }
 table.dataTable.row-border tbody th,
 table.dataTable.row-border tbody td {
-  border: 1px solid #f1f1f5;
+  border: 2px solid #f1f1f5;
   background-color: #fff;
 }
 table.dataTable.display tbody th,
 table.dataTable.display tbody td {
-  border-top: 1px solid #f1f1f5;
+  border-top: 2px solid #f1f1f5;
   background-color: #fff;
   color: #4e5e6a;
 }
 table.dataTable.display tfoot th,
 table.dataTable.display tfoot td {
-  border-top: 1px solid #f1f1f5;
+  border-top: 2px solid #f1f1f5;
   background-color: #fff;
 }
 table.dataTable.no-footer {
-  border-bottom: 1px solid #f1f1f5;
+  border-bottom: 2px solid #f1f1f5;
 }
 table.dataTable.b-b-only tbody th,
 table.dataTable.b-b-only tbody td {
@@ -4016,7 +4016,7 @@ td.option a.delete:hover {
 .table-bordered > tfoot > tr > th,
 .table-bordered > thead > tr > td,
 .table-bordered > thead > tr > th {
-  border: 1px solid #f1f1f5;
+  border: 2px solid #f1f1f5;
 }
 
 /*full calendar*/
@@ -4710,7 +4710,7 @@ body {
   background-color: #f9f9f9;
   color: #4e5e6a;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   background-position: center center;
@@ -4741,7 +4741,7 @@ h6 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 h5 {
@@ -4759,7 +4759,7 @@ blockquote {
 pre {
   display: block;
   padding: 9.5px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: #4e5e6a;
   word-break: break-all;
@@ -4813,7 +4813,7 @@ p {
 }
 
 small {
-  font-size: 0.825rem;
+  font-size: 0.875rem;
 }
 
 .hide {
@@ -5207,27 +5207,27 @@ i.online {
 
 /*font-size*/
 .font-11 {
-  font-size: 11px !important;
+  font-size: 12px !important;
 }
 
 .font-14 {
-  font-size: 14px !important;
+  font-size: 15px !important;
 }
 
 .font-16 {
-  font-size: 16px !important;
+  font-size: 17px !important;
 }
 
 .font-18 {
-  font-size: 18px !important;
+  font-size: 19px !important;
 }
 
 .font-20 {
-  font-size: 20px !important;
+  font-size: 21px !important;
 }
 
 .font-22 {
-  font-size: 22px !important;
+  font-size: 23px !important;
 }
 
 .font-100p {

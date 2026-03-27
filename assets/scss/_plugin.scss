@@ -279,7 +279,7 @@ table.dataTable>tbody>tr.child ul.dtr-details>li {
     display: inline-block;
     box-shadow: none !important;
     border: 1px solid $light-default-border;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0 -2px;
     padding: 6px 10px;
     color: $light-default-text-color;
@@ -592,7 +592,7 @@ td.option a,
     margin: 0 5px;
     padding: 2px 0 3px 0;
     border: 1px solid $light-default-border;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .dtr-details {
@@ -662,7 +662,7 @@ td.option a,
     margin: 0 5px;
     padding: 2px 0 2.5px 0;
     border: 1px solid $light-default-border;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 tr.child ul.dtr-details>li {
@@ -737,7 +737,7 @@ td {
 .table-bordered>tfoot>tr>th,
 .table-bordered>thead>tr>td,
 .table-bordered>thead>tr>th {
-    border: 1px solid $light-default-border;
+    border: 2px solid $light-default-border;
 }
 
 /*full calendar*/
@@ -757,7 +757,7 @@ td {
 }
 
 .fc-icon {
-    font-size: 23px !important;
+    font-size: 24px !important;
 }
 
 .custom-toolbar {
@@ -895,7 +895,7 @@ td {
         width: 24px;
         height: 24px;
         margin-left: -24px;
-        font-size: 25px;
+        font-size: 26px;
         cursor: pointer;
         color: $white;
         position: absolute;
