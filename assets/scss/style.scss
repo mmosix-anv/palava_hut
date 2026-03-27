@@ -12,7 +12,7 @@ body {
     background-color: $background-color;
     color: $light-default-text-color;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
     height: 100%;
     background-position: center center;
@@ -43,7 +43,7 @@ h6 {
 }
 
 h4 {
-    font-size: 19px;
+    font-size: 21px;
 }
 
 h5 {
@@ -289,7 +289,7 @@ i.online {
 /*button*/
 
 .btn {
-    font-size: 14px;
+    font-size: 16px;
 
     &.round {
         border-radius: 50px;
@@ -573,27 +573,27 @@ i.online {
 
 /*font-size*/
 .font-11 {
-    font-size: 12px !important;
+    font-size: 14px !important;
 }
 
 .font-14 {
-    font-size: 15px !important;
-}
-
-.font-16 {
     font-size: 17px !important;
 }
 
-.font-18 {
+.font-16 {
     font-size: 19px !important;
 }
 
-.font-20 {
+.font-18 {
     font-size: 21px !important;
 }
 
-.font-22 {
+.font-20 {
     font-size: 23px !important;
+}
+
+.font-22 {
+    font-size: 25px !important;
 }
 
 .font-100p {
@@ -858,7 +858,7 @@ i.online {
 }
 
 .fs-14 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*form*/
@@ -909,7 +909,7 @@ label {
 .general-form {
     .form-control {
         box-sizing: border-box;
-        font-size: 14px;
+        font-size: 16px;
         border: 1px solid $light-default-border;
         border-color: $light-default-bg;
         background-color: $light-default-bg;
@@ -1300,7 +1300,7 @@ body.modal-open {
     border-radius: 5px 5px 0 0;
 
     h1 {
-        font-size: 20px;
+        font-size: 22px;
         margin: 0;
         padding: 20px 16px;
         float: left;
@@ -4142,7 +4142,7 @@ input[type="color"] {
 }
 
 .font-12 {
-    font-size: 12px !important;
+    font-size: 14px !important;
 }
 
 .invoice-payment-button {

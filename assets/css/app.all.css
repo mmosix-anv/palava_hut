@@ -1364,7 +1364,7 @@ img.mfp-img {
   margin-top: 0;
   position: fixed;
   top: 0;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
@@ -3633,7 +3633,7 @@ table.dataTable > tbody > tr.child ul.dtr-details > li {
   display: inline-block;
   box-shadow: none !important;
   border: 1px solid #f1f1f5;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 -2px;
   padding: 6px 10px;
   color: #4e5e6a;
@@ -3891,7 +3891,7 @@ td.option a,
   margin: 0 5px;
   padding: 2px 0 3px 0;
   border: 1px solid #f1f1f5;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .dtr-details {
@@ -4710,7 +4710,7 @@ body {
   background-color: #f9f9f9;
   color: #4e5e6a;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   background-position: center center;
@@ -4741,7 +4741,7 @@ h6 {
 }
 
 h4 {
-  font-size: 19px;
+  font-size: 21px;
 }
 
 h5 {
@@ -4977,7 +4977,7 @@ i.online {
 
 /*button*/
 .btn {
-  font-size: 14px;
+  font-size: 16px;
 }
 .btn.round {
   border-radius: 50px;
@@ -5207,27 +5207,27 @@ i.online {
 
 /*font-size*/
 .font-11 {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 .font-14 {
-  font-size: 15px !important;
-}
-
-.font-16 {
   font-size: 17px !important;
 }
 
-.font-18 {
+.font-16 {
   font-size: 19px !important;
 }
 
-.font-20 {
+.font-18 {
   font-size: 21px !important;
 }
 
-.font-22 {
+.font-20 {
   font-size: 23px !important;
+}
+
+.font-22 {
+  font-size: 25px !important;
 }
 
 .font-100p {
@@ -5462,7 +5462,7 @@ i.online {
 }
 
 .fs-14 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /*form*/
@@ -5508,7 +5508,7 @@ label {
 
 .general-form .form-control {
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 16px;
   border: 1px solid #f1f1f5;
   border-color: #f9f9f9;
   background-color: #f9f9f9;
@@ -5823,7 +5823,7 @@ body.modal-open {
   border-radius: 5px 5px 0 0;
 }
 .page-title h1 {
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
   padding: 20px 16px;
   float: left;
@@ -8316,7 +8316,7 @@ input[type=color] {
 }
 
 .font-12 {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 .invoice-payment-button .btn {

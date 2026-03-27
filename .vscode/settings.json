@@ -1,3 +1,4 @@
 {
-    "amazonQ.allowFeatureDevelopmentToRunCodeAndTests": {}
+    "amazonQ.allowFeatureDevelopmentToRunCodeAndTests": {},
+    "kiroAgent.configureMCP": "Disabled"
 }
