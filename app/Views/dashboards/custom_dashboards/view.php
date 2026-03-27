@@ -61,11 +61,7 @@
 }
 </style> -->
 
-<div id="page-content" class="page-wrapper clearfix dashboard-view" 
-<?php if ($login_user->user_type !== "staff") { ?>
-        style="background-image: url('<?php echo base_url("assets/images/dashboard-bg.png"); ?>'); background-size: cover; background-position: center;"
-    <?php } ?>
-    >
+<div id="page-content" class="page-wrapper clearfix dashboard-view">
 
     <?php
     if (count($dashboards)) {
