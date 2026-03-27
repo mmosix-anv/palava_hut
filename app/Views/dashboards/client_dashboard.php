@@ -80,7 +80,7 @@ if (!$has_inquiries) {
 }
  ?>
 
-<div id="page-content" class="page-wrapper clearfix" style="background-image: url('<?php echo base_url("assets/images/dashboard-bg.png"); ?>'); background-size: cover; background-position: center;">
+<div id="page-content" class="page-wrapper clearfix">
     <?php
     if (count($dashboards) && !get_setting("disable_dashboard_customization_by_clients")) {
         echo view("dashboards/dashboard_header");
