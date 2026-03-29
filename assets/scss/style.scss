@@ -13,6 +13,7 @@ body {
     color: $light-default-text-color;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
     height: 100%;
     background-position: center center;
@@ -27,7 +28,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-weight: normal;
+    font-weight: 600;
 }
 
 h1,
@@ -606,8 +607,8 @@ i.online {
     border: 1px solid $light-default-border;
     margin-bottom: 20px;
     transition: all 1s;
-    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03);
-    -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03) !important;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.10) !important;
 
     .card-header {
         background-color: $white;
